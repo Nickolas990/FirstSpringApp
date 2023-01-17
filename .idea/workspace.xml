@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e79ab194-9c02-4812-b739-940a5ade8eb9" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/ClassicalMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/TestBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/TestSpring.java" afterDir="false" />
+    <list default="true" id="e79ab194-9c02-4812-b739-940a5ade8eb9" name="Changes" comment="Test of IoC">
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +27,19 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7189e23c-8be1-48ca-9c1b-8e7658c11784" />
+        <option name="url" value="https://github.com/Nickolas990/FirstSpringApp" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -91,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673965427507</updated>
-      <workItem from="1673965429497" duration="2756000" />
+      <workItem from="1673965429497" duration="3297000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1673966981153</created>
@@ -100,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673966981153</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test of IoC">
+      <created>1673969298939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673969298939</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Test of IoC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test of IoC" />
   </component>
 </project>
