@@ -18,7 +18,7 @@ public class Computer {
     @Override
     public String toString() {
         System.out.println("Computer " + id);
-        musicPlayer.playMusic(Genres.CLASSICAL);
+        musicPlayer.playMusic();
         return "finished";
     }
 }

@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e79ab194-9c02-4812-b739-940a5ade8eb9" name="Changes" comment="Solved task with injecting ArrayList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/Genres.java" afterDir="false" />
+    <list default="true" id="e79ab194-9c02-4812-b739-940a5ade8eb9" name="Changes" comment="Solved task with Qualifier and Enum">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/PunkRock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/PunkRock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +25,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673965427507</updated>
-      <workItem from="1673965429497" duration="14314000" />
+      <workItem from="1673965429497" duration="19495000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1673966981153</created>
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673972240650</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Solved task with Qualifier and Enum">
+      <created>1674000637215</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674000637215</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,21 +155,7 @@
     <MESSAGE value="Test of IoC" />
     <MESSAGE value="MusicPlayer with Spring created" />
     <MESSAGE value="Solved task with injecting ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved task with injecting ArrayList" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/melnikov/firstSpring/MusicPlayer.java</url>
-          <line>37</line>
-          <properties class="ru.melnikov.firstSpring.MusicPlayer" method="playMusic">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Solved task with Qualifier and Enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved task with Qualifier and Enum" />
   </component>
 </project>

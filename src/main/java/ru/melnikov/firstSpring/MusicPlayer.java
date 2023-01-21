@@ -17,8 +17,6 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 @Setter
-@Component()
-@Scope("prototype")
 public class MusicPlayer {
     private List<Music> musicList;
     @Value("${musicPlayer.name}")
@@ -26,21 +24,11 @@ public class MusicPlayer {
     @Value("${musicPlayer.volume}")
     private int volume;
 
-    Music music1;
-    Music music2;
-
-    @Autowired()
-    public MusicPlayer(@Qualifier("classicalMusic") Music classical, @Qualifier("rockMusic") Music rock) {
-        music1 = classical;
-        music2 = rock;
+    public MusicPlayer(List<Music> musicList) {
+        this.musicList = musicList;
     }
 
-    public void playMusic(Genres genre) {
-        if (genre == Genres.CLASSICAL) {
-            System.out.println(music1.getMusicList().get(new Random().nextInt(music1.getMusicList().size())));
-        }
-        if (genre == Genres.ROCK) {
-            System.out.println(music2.getMusicList().get(new Random().nextInt(music2.getMusicList().size())));
-        }
+    public void playMusic() {
+        System.out.println(musicList.get(new Random().nextInt(musicList.size())).getSong());
     }
 }
